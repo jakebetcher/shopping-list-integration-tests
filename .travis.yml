@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: asE0ei3dAs7ijIimoJ0hGJRrFMqkT/nro/QNHkDjmb35+qdzUzOmKq+94TFUP8nfF5IiQ6Wfj9/+cGLscjEwim1wLqg8Pgclho5f2T3Om1Y8mKlnu1suEytyaOVmI+XEA0eygrk3dj3SJq359zUe3FKNMladcfsjz52cMLza3Q6I/lkba5QyzruCd7dDxzjAsG3DGfd/3fj8cUR/Jl7B+fzOwqDqGeU7/zu3SqQrZrX0SF6zUAzLvpw97uDfs89y9cx6eim3o7dpxDynz8mlEpSeE7JdqjbfjzSvvfUrLdxHhytqt/08HGID0IPOhFdtVItTRxikFE3cag48JEmW0bkaFXLeJRvDdyRKw3RsS368HiuLd4MiCQH9SbJDAx2/tEGT3vfiD4dTYkvUYspUfjxo+3DzC9LABoBaJqJ71wagxGRYXFqM+c+fQTT9nLdPolJmpcJ1gAS97e6294DI5U0ZhmvDaY/1BO8nxUhdmKOf/ZM9q1V8l5vIY8Y9drYshb6GcrmIjdUWAiupmaxkzawkV4Ja5PuBmiDs7nENIyfucZTO7LglKz20TFKJCdNO76tVMM6vzjLO5xOiyX9z3Eew+LhaagnCySNm7lxIQcy8RXZJudfm3xIb664I4Yso2kvZMyihibz6LVnPYadFe9BoqnIMv0v6Qjn6Wk+wjr4=
+  app: mighty-coast-25351
+  on:
+    repo: jakebetcher/shopping-list-integration-tests
